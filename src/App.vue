@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <PrimeiroComponente />
     <p class="paragrafo-pai">O dado de app é {{ testando }}</p> 
     <LifeCycle />
@@ -8,13 +9,16 @@
 </template>
 
 <script>
+  import Header from './components/Header';
   import PrimeiroComponente from './components/PrimeiroComponent';
   import LifeCycle from './components/LifeCycle';
   import Pessoa from './components/Pessoa';
 
+
   export default{
     name: 'App',
     components: {//tenho que especificar que vou ter componentes
+      Header,
       PrimeiroComponente,
       LifeCycle,
       Pessoa
