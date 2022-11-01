@@ -1,0 +1,22 @@
+Utilizado para dar dados ao componente
+Por meio do data conseguimos manipular dados na nossa aplicação
+
+Ex:
+<script>
+  export default{
+    name: 'PrimeiroComponente',
+    data() {
+      return {
+        nome: "Matheus",
+        profissao: "Programador",
+      }
+    }
+  }
+</script>
+
+E podemos chamar esses dadaos dentro da tag tamplate, no próprio componente:
+<template>
+  <div>
+    <p>Meu nome é {{ nome }} e trabalho como {{ profissao }}</p>
+  </div>
+</template>
