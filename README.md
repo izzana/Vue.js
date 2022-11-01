@@ -1,6 +1,6 @@
 # new_project
 
-### A Repository with my Vue.js studies
+##### A Repository with my Vue.js studies
 
 ## Project setup
 ```
