@@ -1,5 +1,7 @@
 # new_project
 
+##### A Repository with my Vue.js studies
+
 ## Project setup
 ```
 npm install
